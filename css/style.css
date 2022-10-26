@@ -1,0 +1,334 @@
+
+*{
+    transition: .2s linear all;
+}
+.carousel-caption
+{
+    bottom: 200px !important;
+    text-align: left !important;
+}
+.topBar{
+    top:30px;
+    color: #fff;
+}
+
+
+.socialBar i
+{
+    margin: 0px 10px;
+}
+#navigation
+{
+   top: 100px;
+   z-index:999;
+   background-color: rgba(224, 224, 224, 0.485);
+}
+.collapse.navbar-collapse
+{
+    justify-content: end;
+
+    background-color: #EA1D5D !important;
+}
+.navbar-brand
+{
+    font-size: 30px !important;
+    margin-right: 0px !important;
+}
+.navbar-collapse a{
+    color: #fff;
+    margin:0px 15px;
+    font-size: 17px;
+}
+
+
+.carousel-inner .carousel-item img{
+    min-height:500px;
+    object-fit:cover;
+}
+.effectParent{
+    position: relative;
+}
+#about .effects
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    
+}
+#about .bg-light
+{
+    background-color: rgba(200, 200, 200, 1) !important;
+}
+
+#about .col-lg-4:hover img{
+    transform: scale(2,2);
+
+}
+#about .col-lg-4 .effects p, #about .col-lg-4 .effects a{
+    transform: scale(0,0);
+}
+#about .col-lg-4 .effects h2, #about .col-lg-4 .effects{
+    opacity: 0;
+}
+
+#about .col-lg-4:hover .effects p, #about .col-lg-4:hover .effects a{
+    transform: scale(1,1);
+}
+#about .col-lg-4:hover .effects h2, #about .col-lg-4:hover .effects{
+    opacity: 1;
+}
+
+.abtImg
+{
+    box-shadow: 3px 3px 3px green;
+    outline: 3px solid rgb(255, 255, 255);
+    outline-offset: -10px;
+}
+
+#services
+{
+    background-image: url(../images/b2.jpg);
+    background-size: cover;
+    padding:50px 0px;
+    
+}
+
+.serviceBox
+{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    margin: 10px 0px;
+   
+}
+.serviceBox i
+{
+    font-size: 40px;
+    transition: 0.5s linear all;
+}
+.serviceBox:hover i
+{
+    transform: rotate(360deg);
+}
+#services .heading h2
+{
+    color: #fff;
+    text-align: center;
+    font-size:40px !important;
+}
+
+#blog{
+    padding:50px 0px;
+    background-color: #E6E6E6;
+}
+.card-img-top
+{
+    border-radius: 0px !important;
+}
+.card{
+    border-radius: 0px !important;
+    box-shadow:0px 0px 5px 1px rgb(194, 192, 192);
+}
+
+.card .btn{
+    border-radius: 0px !important;
+}
+#blog 
+{
+    padding: 50px 0px;
+}
+#blog .heading
+{
+    text-align: center;
+}
+#blog .heading h2
+{
+    font-size: 45px;
+    padding-bottom: 20px;
+
+}
+
+#news{
+    padding: 50px 0px;
+}
+.form button{
+    outline: none;
+    border: 1px solid #000;
+}
+
+.formInput input
+{
+    width: 70%;
+    padding: 10px 20px;
+}
+
+.formInput button
+{
+    width: 30%;
+}
+
+#news h2{
+    font-size: 40px;
+    text-transform:uppercase;
+}
+
+#stats
+{
+    padding:50px 0px;
+    background-image: linear-gradient(rgba(88, 20, 223, 0.5),rgba(223, 20, 20, 0.198)),url(../images/b2.jpg);
+}
+#stats .heading{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+.redBox
+{
+    background-color: #EA1D5D;
+    padding:30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    margin:0px 20px;
+}
+.redBox h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.redBox h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#staff
+{
+    padding: 50px 0px;
+}
+.card-body
+{
+    background-color: #EA1D5D;
+    text-align: center;
+    color: #fff !important;
+}
+
+#contact
+{
+    background-image: url(../images/b2.jpg);
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.contactText
+{
+    background-color: #000;
+    padding: 50px;
+    text-align: center;
+}
+
+.contactText h3{
+    color: #EA1D5D;
+    font-size: 20px;
+}
+
+.contactText p{
+    font-size: 17px;
+    color: #fff;
+}
+.contactForm 
+{
+    padding:10px 50px;
+}
+::placeholder{
+    color: #fff;
+}
+.contactForm input
+{
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.contactForm textarea{
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.contactForm button{
+    background-color: #EA1D5D;
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#footer{
+    padding:50px 0px;
+}
+
+#footer p{
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.imgGroup img
+{
+    width: 33.33%;
+   padding: 5px;
+}
+
+#footerB
+{
+    background-color: #000;
+    padding: 20px 0px;
+}
+.footerBorder
+{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    margin:10px 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:576px)
+{
+    .topBar{
+        top:20px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .navbar-brand
+    {
+        padding:0px 15px;
+    }
+    .carousel-caption
+    {
+        bottom:50px !important;
+        text-align: left !important;
+    }
+
+}
+@media only screen and (min-width:576px) and (max-width:768px)
+{
+
+}
+
